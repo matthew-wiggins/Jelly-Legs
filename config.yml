@@ -1,0 +1,16 @@
+no-permission: '&4&l[!] &cYou do not have permission to do this!'
+only-players: '&4&l[!] &cOnly players can use this command!'
+invalid-player: '&4&l[!] &cYou have entered an invalid player!'
+commands:
+  error: '&4&l[!] &cUnknown command; type "&4/jellylegs help&c" for more information!'
+  help:
+    - '&6&l[!] &eJellyLegs Help:'
+    - '  &e/jellylegs help &f- &7Shows this help message'
+    - '  &e/jellylegs reload &f- &7Reload the plugin''s files'
+    - '  &e/jellylegs <player> &f- &7Toggles the player''s JellyLegs'
+  reload:
+    success: '&6&l[!] &eYou have successfully reloaded JellyLegs!'
+  toggle:
+    enabled: '&6&l[!] &eYou will no longer take fall damage!'
+    disabled: '&4&l[!] &cYou will now take fall damage!'
+    admin-toggle: '&6&l[!] &eYou have &6{status} {player}&e''s JellyLegs!'
